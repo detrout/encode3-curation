@@ -1,0 +1,73 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix htswlib: <http://jumpgate.caltech.edu/wiki/LibraryOntology#> .
+@prefix geoSoft: <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#> .
+@prefix library: <http://jumpgate.caltech.edu/library/> .
+@prefix ucscDaf: <http://jumpgate.caltech.edu/wiki/UcscDaf#> .
+@prefix encode3: <http://jumpgate.caltech.edu/wiki/Encode3#> .
+@prefix submissionOntology: <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#> .
+
+@prefix thisView:<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-comparison-20130920/view/>.
+
+thisView:Alignments ucscDaf:filename_re ".*\\.accepted_hits\\.(sorted\\.)?bam$" .
+
+thisView:FastqRead1 ucscDaf:filename_re ".*\\.end1\\.fastq\\.(?:gz|bz2)$" ;
+               a geoSoft:raw ;
+               geoSoft:fileTypeLabel "fastq" ;
+               ucscDaf:output_type "read1" .
+thisView:FastqRead2 ucscDaf:filename_re ".*\\.end2\\.fastq\\.(?:gz|bz2)$" ;
+               a geoSoft:raw ;
+               geoSoft:fileTypeLabel "fastq" ;
+               ucscDaf:output_type "read2" .
+thisView:FastqRead1 ucscDaf:filename_re ".*\\.fastqRd1\\.(?:gz|bz2)$" ;
+               a geoSoft:raw ;
+               geoSoft:fileTypeLabel "fastq" ;
+               ucscDaf:output_type "read1" .
+thisView:FastqRead2 ucscDaf:filename_re ".*\\.fastqRd2\\.(?:gz|bz2)$" ;
+               a geoSoft:raw ;
+               geoSoft:fileTypeLabel "fastq" ;
+               ucscDaf:output_type "read2" .
+thisView:Fastq ucscDaf:filename_re ".*[^12]\\.fastq\\.(?:gz|bz2)$" ;
+               a geoSoft:raw ;
+               geoSoft:fileTypeLabel "fastq" ;
+               ucscDaf:output_type "read" .
+   
+thisView:uniqueMinusReads ucscDaf:filename_re ".*\\.unique\\.minus\\.bigWig$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bigWig" ;
+               ucscDaf:output_type "uniqueMinusSignal" .
+thisView:uniquePlusReads ucscDaf:filename_re ".*\\.unique\\.plus\\.bigWig$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bigWig" ;
+               ucscDaf:output_type "uniquePlusSignal" .
+thisView:uniqueReads ucscDaf:filename_re ".*[^se].bigWig$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bigWig" ;
+               ucscDaf:output_type "Signal" .
+thisView:multiMinusRead ucscDaf:filename_re ".*[^e]\\.minus\\.bigWig$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bigWig" ;
+               ucscDaf:output_type "minusSignal" .
+thisView:multiPlusRead ucscDaf:filename_re ".*[^e]\\.plus\\.bigWig$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bigWig" ;
+               ucscDaf:output_type "plusSignal" .
+thisView:alignments ucscDaf:filename_re ".*\\.bam$" ;
+               a geoSoft:supplemental ;
+               geoSoft:fileTypeLabel "bam" ;
+               ucscDaf:output_type "alignments" .
+
+#htswlib:ignore ucscDaf:filename_re ".*\\.bam$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.bai$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.condor$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.daf$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.ddf$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.fragLength$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.hts$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.juncs" .
+htswlib:ignore ucscDaf:filename_re ".*\\.log$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.md5$" .
+htswlib:ignore ucscDaf:filename_re ".*[^e]\\.narrowpeak$" .
+htswlib:ignore ucscDaf:filename_re ".*\\.rds$" .
+
