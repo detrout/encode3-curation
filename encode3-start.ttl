@@ -1,0 +1,1476 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB042ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3c736ac347ff2cf0268d5fc0df8b3a1b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB042ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "970e763fa49bd336bbfdb711e431c599" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB042ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "db57fc2ab3f97839ca6f06c17ef0a0a9" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB041ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0c8e6329b133bcabdd7481d23c57fe10" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB041ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bcaef5e3f76369a4b03cc2f4344301e0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB041ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "cfca3ac29a1cd1bb6023f12fc1d059b0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB037ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f59f4c1825eaf8e77d7ff3e4f542d039" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB037ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "e7d73696f1917b293b09925657e48bfc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB037ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ca76ec6cc311810fcd0eb6a80c74e2f8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB038ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "5055df2732fe7fcdffb61988874b55c2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB038ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "d4e955b1f10d80d6316b2fdca77f3a13" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB038ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "eec9f7536b4dfeb89c1faef73794d103" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711-SL32141-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/13711/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Rep1_totalRNA_1ug-13711-SL32141-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "dd4f93491ce872ba0abfe79bc12bbed8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711-SL32141-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711.fastq.bz2>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/13711/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Rep1_totalRNA_1ug-13711.fastq.bz2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0090d0a9cba99d048ed1d5d50f719719" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711.fastq.bz2" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/Fastq> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB040ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "176daf9247fd22193f08d4c498170ff2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB040ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8aaffba490b3d1df746f4a2a27ab0be6" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB040ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "2614172f83062f8a7cb3a11b13176198" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB039ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "07987b5403af95a57eb67e6083b5d4ab" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB039ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9efa9e8b63945e25c8b20f6187ca6ae0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB039ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8e353522cad9ed4054d6d7c03ef4838f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB060ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "558b9351570306aa719b22788fbae0cb" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB060ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8d5c9242cd52a64c4faa054e1cc6f40e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB060ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "96386138b96639b8ec3bcc03474c4ee5" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB059ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "36aeee69fc5798994a65350d38b24489" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB059ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8b9d0bdc26cf141f47ce0ef8051beef4" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB059ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "330e0563dde9cae9695314b1a9fdd8ac" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB055ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "15faf2169e57115066e2e1d776a0aba2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB055ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7f354198ce2cb0cb6432981fee85aa9a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB055ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "fc72959269dcf0aad2484d55dd3fd953" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB056ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bea2380eda637582e2fb4897cce790b3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB056ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "1f326250abe3cbf965b98eef1d02eca8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB056ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f53ba7968ff2f96af395b6b90c4bf4d3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB058ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a3af0f3cdc8a765a5576a084e709c03b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB058ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "6fefa26ae25881bfc97a4c03bcd21c3e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB058ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "88e07d0c3029be56c78417159a067d6a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB057ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "da2338728c82ccae6aabf2a236aedb77" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB057ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a1a11825f4ec0747ad8d605dc020218c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library> <http://jumpgate.caltech.edu/library/ENCLB057ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4ed9be3974293a07f856a28d54f03121" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig" ;
+    a <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads> .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7288cd83941c46cd02fc800934052601" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "353abf0e0373a47fdedad53af4e88a21" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "052ee17a8d25f223f505515ed2b9730b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "871de4a2eb9ad9a41d4ff2ebe24c17e2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB045ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "2e943892f0f0365c316a5e3182288b89" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8ab642ecec756cd4b0a214af4efa49ee" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7996a72bd92c5c742ae27b828b56e5eb" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "de29a682f8986a98fc874f958b78004e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_SMARTseq_1x100_ENCLB046ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3c736ac347ff2cf0268d5fc0df8b3a1b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "cfac722cec33da1490a133315b28d4a3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9609df96cfcf03342152a2d9882c8cbc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b1f57b4a85685747a8af5d369c33975d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3d3e80a2fdb35ee710d07a25639877f0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "970e763fa49bd336bbfdb711e431c599" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "db57fc2ab3f97839ca6f06c17ef0a0a9" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB041ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0c8e6329b133bcabdd7481d23c57fe10" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a3677a7670ef117e447734e91807f88f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "44003d18fc12799a719cf710188cc340" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ace32bba1b8174939685fdfc0738a438" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bb7ac173ea2d14b7dab3c3b76b06b53a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bcaef5e3f76369a4b03cc2f4344301e0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "cfca3ac29a1cd1bb6023f12fc1d059b0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_TruSeq_2x100_ENCLB042ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f59f4c1825eaf8e77d7ff3e4f542d039" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ed361c60b7bd98c25b2ce67dda106d19" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a85364e3ee81fd9a63928b23fd103e4a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3973fbb8a5021968da2a179084bdb076" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "146a30e76233e81f8fe3b69f7dc84cdb" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "e7d73696f1917b293b09925657e48bfc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ca76ec6cc311810fcd0eb6a80c74e2f8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB037ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "5055df2732fe7fcdffb61988874b55c2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "692aab38f4ff5e00ab6c9bd85af579fc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "94b17271033c4cd3f0c02c02de30c417" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f0996dff4dec3edc1f8547b2d698ede3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "cf21b1fa3d9ad759415ca0cf1f8286ff" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "d4e955b1f10d80d6316b2fdca77f3a13" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "eec9f7536b4dfeb89c1faef73794d103" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_PolyA_dUTP_2x100_ENCLB038ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "dd4f93491ce872ba0abfe79bc12bbed8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ed870796a3edd4f8e5997f404adafda7" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "1bd5b71487649ac75573515de376308e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "40f65ce4636f82942d7a96cf2e537119" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB043ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "82b34d7e4a51fee9475be30fe755de79" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "73f931b9b6bc203fc017af29bec3da9b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7186389a9b56c545c17ecde5016b54cc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4b86db3b6ad3f2dce68697c8dbfaf078" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_SMARTseq_1x100_ENCLB044ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "176daf9247fd22193f08d4c498170ff2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a833e2902c734dee814609bb61212cc7" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7cd9d6c9675fbc614c7aa96058ad66bb" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "c35d19f5851d53f28027af47f35c57d4" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b28c5aa33031544501f103b0ae90e31f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8aaffba490b3d1df746f4a2a27ab0be6" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "2614172f83062f8a7cb3a11b13176198" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB039ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "07987b5403af95a57eb67e6083b5d4ab" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b3154f282205b8a21357805d93e1fa5f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a2a0d3be2421478d6c0dfc00aa661ccf" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "102282139a2bf5312d1d9dbf4478d851" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8d233cf3399346731d766a9b25a3612d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9efa9e8b63945e25c8b20f6187ca6ae0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8e353522cad9ed4054d6d7c03ef4838f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_TruSeq_2x100_ENCLB040ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "276de44757a384dff1677a430b1145aa" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "03260119096785a85795082e62b003e2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "60f0807635763f55f7fa56a720fba9d7" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "75d0d8f406ba84ff34dd81ba6897e0e4" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ff7a60ef81824ef9ef61a959fdf93dfc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ad93dae597c269cd202d3e2da8302f31" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0019fee1597abf3219db3165bd4fdc69" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB035ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7a583459620d6651ee862b96405d6d49" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9b55a2feb5a45fc4da2f921884268092" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "33b13e9506ca254f65da377af27e29ac" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "d6095a193fe14b53a2c8345749294dea" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "78f57b677b355f9f4676a3070119678c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3fc65ee7cd3c10d6ef599f74ee9af11f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0837311e66998339aa6aede442e06066" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/GM12878_Long_Total_dUTP_2x100_ENCLB036ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "5e7ddf28c628bd2ccc66523085723220" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f0ae5835ba1786d960a5a1bb26fcb73f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ffeb816ac86aaf75db2e6403db205992" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "c97d93017e51be2805b8aeffb724709f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB063ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "232a95ae4d6b7d464574f7d2fe6c1f39" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "c005cfaf8a490275e68f49da4d87f49e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "70c130d5c473df7492c58caba24c676c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3f12049008138acf227a90ede3d88a4e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_SMARTseq_1x100_ENCLB064ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "558b9351570306aa719b22788fbae0cb" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b860d2b01da0217631fb7421b39cc076" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9426cb1c69343ea301e33eb44504ff8b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a303798978b4bbb3c7c9182414a03ca3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "855f8ccd51791c5682d1f472bb5ed3f1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8d5c9242cd52a64c4faa054e1cc6f40e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "96386138b96639b8ec3bcc03474c4ee5" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB059ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "36aeee69fc5798994a65350d38b24489" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9e285515b3812704ce435ba8c1241c6d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "315083ef6c2fbfb217143ce71d2891cc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "c57abed1f0ca38ea85acbeb0187e33d5" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ca9f60f5e61fd84b7019c0574c9abe51" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8b9d0bdc26cf141f47ce0ef8051beef4" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "330e0563dde9cae9695314b1a9fdd8ac" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_TruSeq_2x100_ENCLB060ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "15faf2169e57115066e2e1d776a0aba2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "d5f6668bdcc50dba90eb6a100b1c66e7" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "c76190fae6041d0853dc542d0fb9bb0c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "616d59726d372500726526c82391703e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "dde2c5010bcd441aba53d430a26cbcb3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "7f354198ce2cb0cb6432981fee85aa9a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "fc72959269dcf0aad2484d55dd3fd953" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB055ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bea2380eda637582e2fb4897cce790b3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a8bd1e6bd3220470bdd4e014f2b6bce4" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "965279ef65b47dcd590c3b065708b321" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "e0b935a621d9e9d2a7102bbf5e93ccc3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "d66df7bb96e547b1231659aca4833d42" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "1f326250abe3cbf965b98eef1d02eca8" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "f53ba7968ff2f96af395b6b90c4bf4d3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_PolyA_dUTP_2x100_ENCLB056ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9bef4c316cc92b7f8ee4a7ae119a29d9" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ff50672cf106c32dcfae093fc0610a13" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "94d87589cc8c62350978be804adee83c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b02f51c5a75e1e5d6e1903bd8646fc52" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB061ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "0dba9f11b05c3879364896e4bac36473" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.fastq.gz>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.fastq.gz" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "71ed69852f79f3c0181fefa69cb11c53" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.fastq.gz" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "8c7025db5899b461d454fd688bf2080a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4ce522da1b97f43514db3560c49073a3" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_SMARTseq_1x100_ENCLB062ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a3af0f3cdc8a765a5576a084e709c03b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4c32202f81b50072fca555337b7dd338" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "693976d780bedea89029d148429fae9f" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3f733b0a4d8f6fa1924e1993e9773212" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a80f4e998fa8a1bcf43caabbe613e751" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "6fefa26ae25881bfc97a4c03bcd21c3e" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "88e07d0c3029be56c78417159a067d6a" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB057ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "da2338728c82ccae6aabf2a236aedb77" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9f517cced76b62a68cc841f9f886ab40" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "ea56aa399b38faa6c4d3a39ee2bf7b97" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "562c95d1ac987c2e2f0038dacbbc8075" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b1c000399f4b0ffa1ec3a5a013745d8d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a1a11825f4ec0747ad8d605dc020218c" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4ed9be3974293a07f856a28d54f03121" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_TruSeq_2x100_ENCLB058ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "9e7c9c9cd4c3f0b952e840d1a3be6e3d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "edcf63155518a00e4dab99095704d2a0" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "458e74330a5c6bf5e6defb7a5bee4eb5" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "3f2c01fa1a7afc8b87c328e6b98a5111" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4615c63022144a5bb07c9d953191003d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "bbe25d3de9f38a31ec35d4416b68ddcc" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "722066b11ee8251d013fee950da27292" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB053ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.bam>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.bam" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4c43775340fef30e098e881990015f4b" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.bam" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "644cf25eaf1bc5163f96a3c3136a87ba" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "4292a2d6f608f5fccdc96c5cf8967b26" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalMinusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlus.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlus.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a73aa33b33a6948bc739366d33ed15c7" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlus.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlusUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlusUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "b4ca3ad7813e1fee9f4a49c00be8886d" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalPlusUnique.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstranded.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstranded.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "6052c59c8081aa1aa0ece639dfe8b201" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstranded.bigWig" .
+
+<file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstrandedUnique.bigWig>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename> "K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#md5sum> "a2b4bc426d0bf627d4a10c21a02a9066" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#relative_path> "hg19/new/K562_Long_Total_dUTP_2x100_ENCLB054ZZZ_Wold.rawSignalUnstrandedUnique.bigWig" .
+
+<http://jumpgate.caltech.edu/flowcell/C24LTACXX/>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#control_lane> "2"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#date> "2013-05-24T19:40:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#flowcell_id> "C24LTACXX"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#flowcell_notes> """All lanes are run at 11 pM. Running on side A. Single 8 nt index read.
+13733 and 13734 run as 5% of a lane"""@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#flowcell_type> "Single"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#read_length> 100 ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#sequenced_by> <http://jumpgate.caltech.edu/sequencer/4> ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#IlluminaFlowcell> .
+
+<http://jumpgate.caltech.edu/lane/3323>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#flowcell> <http://jumpgate.caltech.edu/flowcell/C24LTACXX/> ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#lane_number> "1"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#pM> 5 ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#IlluminaLane> ;
+    <http://www.w3.org/1999/xhtml/vocab#stylesheet> <http://jumpgate.caltech.edu/static/css/app.css>, <http://jumpgate.caltech.edu/static/css/data-browse-index.css> .
+
+<http://jumpgate.caltech.edu/library/13711/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEG" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB043ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#affiliation> "Brian Williams"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#concentration> "14.7 ng/µl"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#date> "2013-05-08T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#experiment_type> "RNA-seq"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#gel_cut> 450 ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#has_lane> <http://jumpgate.caltech.edu/lane/3323> ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#insert_size> 350 ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "13711"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Dual Index Illumina"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#made_by> "Brian"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#multiplex_index> "N701-N501:TAAGGCGA-TAGATCGC"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#name> "Illumina index__N701_N501_Paired_ends_RNA_Eval_GM12878rep1_totalRNA_1ug_"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#species_name> "Homo sapiens"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#stopping_point> "Completed"@en ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> ;
+    <http://www.w3.org/1999/xhtml/vocab#stylesheet> <http://jumpgate.caltech.edu/static/css/app.css>, <http://jumpgate.caltech.edu/static/css/data-browse-index.css> .
+
+<http://jumpgate.caltech.edu/library/13712/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEG" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB044ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13713/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEH" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB045ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13714/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEH" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB046ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13715/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB061ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13716/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB062ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13717/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEQ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB063ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/13718/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEQ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Wold" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB064ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "SMARTSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB037ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AED" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB037ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB037ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB038ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AED" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB038ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB038ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB039ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEE" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB039ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB039ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB040ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEE" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB040ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB040ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB041ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEF" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB041ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB041ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB042ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEF" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB042ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "GM12878" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB042ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB053ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEL" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB053ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB053ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB054ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEL" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB054ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB054ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB055ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEM" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB055ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB055ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB056ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEM" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Gingeras" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB056ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "dUTP" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB056ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB057ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEN" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB057ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB057ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB058ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEN" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB058ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Total" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB058ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB059ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEO" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB059ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB059ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "1" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/library/ENCLB060ZZZ/>
+    <http://jumpgate.caltech.edu/wiki/Encode3#assay> "Long RNA-Seq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#dataset_id> "ENCSR000AEO" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#lab> "Graveley" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#library_id> "ENCLB060ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#protocol> "TruSeq" ;
+    <http://jumpgate.caltech.edu/wiki/Encode3#rna_type> "Poly-A+" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#cell_line> "K562" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_id> "ENCLB060ZZZ" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#library_type> "Barcoded Illumina" ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#replicate> "2" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#enriched_in> "exon" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#genome_build> "hg19" ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Library> .
+
+<http://jumpgate.caltech.edu/sequencer/4>
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#sequencer_instrument> "HWI-ST0787"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#sequencer_model> "Illumina HiSeq 2000"@en ;
+    <http://jumpgate.caltech.edu/wiki/LibraryOntology#sequencer_name> "Volvox"@en ;
+    a <http://jumpgate.caltech.edu/wiki/LibraryOntology#Sequencer> .
+
+<http://jumpgate.caltech.edu/wiki/LibraryOntology#ignore>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*[^e]\\.narrowpeak$", ".*\\.bai$", ".*\\.condor$", ".*\\.daf$", ".*\\.ddf$", ".*\\.fragLength$", ".*\\.hts$", ".*\\.juncs", ".*\\.log$", ".*\\.md5$", ".*\\.rds$" .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/Alignments>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\.accepted_hits\\.(sorted\\.)?bam$" .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/Fastq>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\.fastq\\.bz2$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "read" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "fastq" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#raw> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/FastqRead1>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\end1\\.fastq\\.bz2$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "read1" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "fastq" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#raw> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/FastqRead2>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\end2\\.fastq\\.bz2$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "read2" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "fastq" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#raw> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/alignments>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\.bam$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "alignments" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "bam" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#supplemental> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/multiRead>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*[^e]\\.bigWig$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "signal" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "bigWig" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#supplemental> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-pipeline-comparison/view/uniqueReads>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#filename_re> ".*\\.unique\\.bigWig$" ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#output_type> "uniqueReads" ;
+    <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#fileTypeLabel> "bigWig" ;
+    a <http://www.ncbi.nlm.nih.gov/geo/info/soft2.html#supplemental> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#>
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#has_submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDF-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDG-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB037ZZZ-Gingeras>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB038ZZZ-Gingeras>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Rep1_totalRNA_1ug-13711-SL32141>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDH-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDI-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDD-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDE-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB055ZZZ-Gingeras>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB056ZZZ-Gingeras>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDB-Graveley>, <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDC-Graveley> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDF-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDF-Graveley/GM12878-PolyA+-ENCFF001RDF-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDF-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB042ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-PolyA+-ENCFF001RDF-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDG-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCFF001RDG-Graveley/GM12878-PolyA+-ENCFF001RDG-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCFF001RDG-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB041ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-PolyA+-ENCFF001RDG-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB037ZZZ-Gingeras>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB037ZZZ-Gingeras/GM12878-PolyA+-ENCLB037ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB037ZZZ-Gingeras> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB037ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-PolyA+-ENCLB037ZZZ-Gingeras"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB038ZZZ-Gingeras>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-PolyA+-ENCLB038ZZZ-Gingeras/GM12878-PolyA+-ENCLB038ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-PolyA+-ENCLB038ZZZ-Gingeras> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB038ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-PolyA+-ENCLB038ZZZ-Gingeras"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Rep1_totalRNA_1ug-13711-SL32141>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711-SL32141-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Rep1_totalRNA_1ug-13711-SL32141/GM12878-Rep1_totalRNA_1ug-13711.fastq.bz2> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Rep1_totalRNA_1ug-13711-SL32141> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/13711/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-Rep1_totalRNA_1ug-13711-SL32141"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDH-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDH-Graveley/GM12878-Total-ENCFF001RDH-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDH-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB040ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-Total-ENCFF001RDH-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDI-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/GM12878-Total-ENCFF001RDI-Graveley/GM12878-Total-ENCFF001RDI-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#GM12878-Total-ENCFF001RDI-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB039ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "GM12878-Total-ENCFF001RDI-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDD-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDD-Graveley/K562-PolyA+-ENCFF001RDD-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDD-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB060ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-PolyA+-ENCFF001RDD-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDE-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCFF001RDE-Graveley/K562-PolyA+-ENCFF001RDE-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCFF001RDE-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB059ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-PolyA+-ENCFF001RDE-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB055ZZZ-Gingeras>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB055ZZZ-Gingeras/K562-PolyA+-ENCLB055ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB055ZZZ-Gingeras> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB055ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-PolyA+-ENCLB055ZZZ-Gingeras"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB056ZZZ-Gingeras>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-PolyA+-ENCLB056ZZZ-Gingeras/K562-PolyA+-ENCLB056ZZZ-Gingeras-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-PolyA+-ENCLB056ZZZ-Gingeras> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB056ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-PolyA+-ENCLB056ZZZ-Gingeras"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDB-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDB-Graveley/K562-Total-ENCFF001RDB-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDB-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB058ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-Total-ENCFF001RDB-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
+<http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDC-Graveley>
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#has_file> <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.accepted_hits+unmapped.bam>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.bigWig>, <file:///woldlab/castor/data03/home/diane/proj/submission/encode3-pipeline-comparison/hg19/K562-Total-ENCFF001RDC-Graveley/K562-Total-ENCFF001RDC-Graveley-TopHat-2.0.8-GENCODEV16.unique.bigWig> ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#paired> true ;
+    <http://jumpgate.caltech.edu/wiki/UcscDaf#submission> <http://jumpgate.caltech.edu/wiki/SubmissionsLog/encode3-test-pipeline-comparison#K562-Total-ENCFF001RDC-Graveley> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#library> <http://jumpgate.caltech.edu/library/ENCLB057ZZZ/> ;
+    <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#name> "K562-Total-ENCFF001RDC-Graveley"@en ;
+    a <http://jumpgate.caltech.edu/wiki/UcscSubmissionOntology#submission> .
+
