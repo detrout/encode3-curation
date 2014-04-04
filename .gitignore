@@ -1,0 +1,5 @@
+*.py[co~]
+*.db
+.ipynb_checkpoints/
+cache/
+rdf-timing
