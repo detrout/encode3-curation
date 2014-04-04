@@ -228,7 +228,7 @@ class LookupSubmittedFile:
             
     def lookup_filename(self, filename):
         parts = filename.split('/')
-        if parts[0] in ('mm9',):
+        if parts[0] in ('mm9','hg19'):
             genome = parts[0]
             track = parts[1]
             filename = parts[2]
