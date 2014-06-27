@@ -27,6 +27,6 @@ ipython.magic('%addns biosample https://www.encodedcc.org/profiles/biosample.jso
 ipython.magic('%addns experiment https://www.encodedcc.org/profiles/experiment.json#')
 ipython.magic('%addns library https://www.encodedcc.org/profiles/library.json#')
 ipython.magic('%addns platform https://www.encodedcc.org/profiles/platform.json#')
-ipython.magic('%addns replicates https://www.encodedcc.org/profiles/replicates.json#')
+ipython.magic('%addns replicate https://www.encodedcc.org/profiles/replicate.json#')
 
 ipython.magic('%addns experiments https://www.encodedcc.org/experiments/')
