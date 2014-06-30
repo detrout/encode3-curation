@@ -13,8 +13,8 @@ def custom_paths():
 custom_paths()
 
 from htsworkflow.submission.encoded import ENCODED
-from htsworkflow.util.rdfhelp import get_model, dump_model
-from htsworkflow.util.rdfjsonld import load_into_model
+from htsworkflow.util.rdfhelp import get_model, dump_model, load_into_model
+from htsworkflow.util.rdfjsonld import load_into_model as load_jsonld_into_model
 
 ipython = get_ipython()
 
