@@ -5,7 +5,7 @@ from IPython import get_ipython
 
 # maybe we should just install htsworkflow
 def custom_paths():
-    paths = [ os.path.expanduser('~/proj/solexa/htsworkflow'),
+    paths = [ os.path.expanduser('~/proj/htsworkflow'),
               ]
     for p in paths:
         if p not in sys.path:
