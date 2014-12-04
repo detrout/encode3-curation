@@ -28,5 +28,6 @@ ipython.magic('%addns experiment https://www.encodedcc.org/profiles/experiment.j
 ipython.magic('%addns library https://www.encodedcc.org/profiles/library.json#')
 ipython.magic('%addns platform https://www.encodedcc.org/profiles/platform.json#')
 ipython.magic('%addns replicate https://www.encodedcc.org/profiles/replicate.json#')
+ipython.magic('%addns file https://www.encodedcc.org/profiles/file.json#')
 
 ipython.magic('%addns experiments https://www.encodedcc.org/experiments/')
