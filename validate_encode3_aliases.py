@@ -35,7 +35,7 @@ class CheckDCCWoldAlias:
                     ]
     def load_datasets(self, urls):
         """Load ENCODE3 datasets into our model.
-        
+
         Once the core dataset classes are loaded
         also add in detailed information about the experiments.
         """
@@ -53,13 +53,13 @@ class CheckDCCWoldAlias:
             LOGGER.info("Loading: %s", url)
             data = self.server.get_jsonld(url, Embed=False)
             load_into_model(self.model, data)
-        
+
     def parse_read_id(self, read_id):
         """Parse different versiond of the read ID
-        
+
         early flowcells were named FC<digits>
         modern flowcells are named <alphanum>AAXX
-        
+
         some versions of the illumina pipeline didn't include the
         flowcell name, there were a few cases where I had added it in.
         Unfortunately I added it in in a different place from
@@ -73,7 +73,7 @@ class CheckDCCWoldAlias:
 
     def match_dcc_alias_and_our_files(self):
         """Check encode libraries that have aliases for matching woldlab library IDs.
-        
+
         I know its a bit long, but basically this is generating a report.
         that shows the alias:library_id and either valid if all the metadata
         can be looked up, or reporting what metadata can be found if
@@ -143,13 +143,13 @@ class CheckDCCWoldAlias:
                 messages.append("Couldn't parse: {}".format(header))
                 messages.append(self.DCCIndex.format_encode2_metadata(submitted))
                 continue
-                
-            libraries = lookup_library_id_from_lims(read_id[0], read_id[1])    
+
+            libraries = lookup_library_id_from_lims(read_id[0], read_id[1])
             if not libraries:
                 messages.append("Couldn't lookup: {}".format(','.join(read_id)))
                 valid_library = False
                 continue
-                
+
             for l in libraries:
                 if l == library_id:
                     valid_library = True
@@ -170,11 +170,11 @@ def display_file_library_ids(alias, results, valid_library):
 
 def lookup_library_id_from_lims(flowcell, lane):
     '''Given a flowcell & lane, go retrieve its library id.
-    
-    this involves downloading metadata from my LIMS and 
+
+    this involves downloading metadata from my LIMS and
     attempting to parse out the library id.
-    
-    It's returning a list because later libraries need to 
+
+    It's returning a list because later libraries need to
     be identified by flowcell/lane/multiplex
     '''
     url = 'http://jumpgate.caltech.edu/flowcell/{flowcell}/{lane}'.format(
@@ -185,7 +185,7 @@ def lookup_library_id_from_lims(flowcell, lane):
     except HTTPException as e:
         print("Unable to open:", url)
         return []
-    
+
     query = RDF.SPARQLQuery('''
 prefix htsw: <http://jumpgate.caltech.edu/wiki/LibraryOntology#>
 
@@ -195,7 +195,7 @@ where {
             htsw:has_lane ?lane .
   ?lane htsw:library ?library ;
         htsw:lane_number ?lane_number .
-}    
+}
 ''')
     libs = []
     for row in query.execute(m):
@@ -204,15 +204,15 @@ where {
             library = library[:-1]
         _, library = os.path.split(library)
         libs.append(library)
-        
+
     return libs
 
 class LookupSubmittedFile:
     """Lookup ENCODE3 submitted filenames in ENCODE2 metadata.
-    
+
     The ENCODE3 imports linked to the UCSC ENCODE2 names.
     which isn't so useful for me to find anything.
-    This class caches the files for different tracks, and 
+    This class caches the files for different tracks, and
     can munge the ENCODE3 filename to match what my parser
     was returning.
     """
@@ -220,12 +220,12 @@ class LookupSubmittedFile:
         self.loaded = set()
         self.dcc_index = {}
         self.base_url = 'http://hgdownload-test.cse.ucsc.edu/goldenPath/'
-        
+
     def update_cache(self, genome, track):
         if (genome, track) not in self.loaded:
             self.dcc_index.update(get_encodedcc_file_index(genome, track))
             self.loaded.add((genome, track))
-            
+
     def lookup_filename(self, filename):
         parts = filename.split('/')
         if parts[0] in ('mm9','hg19'):
@@ -238,7 +238,7 @@ class LookupSubmittedFile:
 
     def format_encode2_metadata(self, submitted):
         """Given a submitted filename return formatted metadata message.
-        
+
         This restricts the report to the two most useful terms
         labExpId and md5sum (as when I looked I didn't see my filenames)
         """
@@ -255,7 +255,7 @@ class LookupSubmittedFile:
 def fastq_read_id(url):
     '''Read the first line (containing the read id) out of a remote fastq file'''
     data = requests.get(url, stream=True)
-    
+
     block = StringIO(data.iter_content(1024).next())
     compressed = gzip.GzipFile(None, 'r', fileobj=block)
     header = compressed.readline().rstrip()
@@ -263,10 +263,9 @@ def fastq_read_id(url):
 
 def bam_read_id(url):
     '''Read first read id out of a remote bam file.
-    
+
     Note: requires a patched version of pysam
     '''
     stream = Samfile(url, 'rb')
     read = stream.next()
     return read.qname
-
