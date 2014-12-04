@@ -121,24 +121,9 @@ class CheckDCCWoldAlias:
             if not path:
                 messages.append("No path: {}".format(str(row['file'])))
                 continue
-                
-            edw = 'http://encodedcc.sdsc.edu/warehouse/' + path
-            if file_format == 'fastq':
-                messages.append('Fastq: {}'.format(submitted))
-                header = fastq_read_id(edw)
-            elif file_format == 'bam':
-                messages.append('Bam: {}'.format(submitted))
-                header = bam_read_id(edw)
-            else:
-                # unsported file type
-                continue
-            
-            if not header:
-                messages.append("Couldn't read: {}".format(path))
-                continue
-                
-            read_id = self.parse_read_id(header)
-            #print('{} -> {}'.format(header, read_id))
+
+            href = 'http://encodedcc.sdsc.edu/warehouse/' + path
+            read_id = self.read_flowcell_from_url(href, file_format, submitted)
             if not read_id:
                 messages.append("Couldn't parse: {}".format(header))
                 messages.append(self.DCCIndex.format_encode2_metadata(submitted))
@@ -156,6 +141,25 @@ class CheckDCCWoldAlias:
             messages.append('Library: {}'.format(','.join(libraries)))
 
         display_file_library_ids(alias, messages, valid_library)
+
+    def read_flowcell_from_url(self, href, file_format, submitted=None):
+        """lookup flowcell and lane using read id from a url
+        """
+        if not submitted:
+            submitted = href
+
+        if file_format == 'fastq':
+            header = fastq_read_id(href)
+        elif file_format == 'bam':
+            header = bam_read_id(href)
+        else:
+            # unsported file type
+            return
+
+        if not header:
+            return
+
+        return self.parse_read_id(header)
 
 def display_file_library_ids(alias, results, valid_library):
     """Display formatted html for our report
