@@ -29,7 +29,7 @@ class CheckDCCWoldAlias:
         self.server = server
         self.DCCIndex = LookupSubmittedFile()
         self.read_patterns = [
-            ":(?P<fc>[A-Z0-9]*A[AC]XX):(?P<lane>[\d]):",
+            ":(?P<fc>[A-Z0-9]*A[ACD]XX):(?P<lane>[\d]):",
             "_(?P<fc>[A-Z0-9]*AAXX)_(?P<lane>[\d])(_(?P<end>[\d]))?",
             "_(?P<fc>FC[\d]+)_(?P<lane>[\d])",
                     ]
