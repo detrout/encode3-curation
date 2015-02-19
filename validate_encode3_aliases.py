@@ -10,7 +10,7 @@ from httplib import HTTPException
 
 import RDF
 import pandas as pd
-from IPython.display import display_html
+from IPython.display import display_html, clear_output
 
 import requests
 from pysam import Samfile
@@ -161,6 +161,32 @@ class CheckDCCWoldAlias:
 
         return self.parse_read_id(header)
 
+    def load_fastq_headers(self, cache, file_href_to_wold_query):
+        """given a sparql query result, open the fastq url and read the read id.
+
+        Parameters
+          - cache dictionary to hold the results
+
+        The sparql query needs the attributes:
+          - href
+          - aliases
+          - file_accession
+        """
+        for i, row in enumerate(file_href_to_wold_query):
+            file_accession = str(row['file_accession'])
+            href = str(row['href'])
+            aliases = str(row['aliases'])
+            if href not in cache:
+                clear_output()
+                print("loading: {} {}/{}".format(href, i, len(file_href_to_wold_query)))
+                header = fastq_read_id(href)
+                cache[href] = {'file_accession': file_accession,
+                               'href': href,
+                               'aliases': aliases,
+                               'header': header}
+        return cache
+
+    
 def display_file_library_ids(alias, results, valid_library):
     """Display formatted html for our report
     """
@@ -273,3 +299,4 @@ def bam_read_id(url):
     stream = Samfile(url, 'rb')
     read = stream.next()
     return read.qname
+
