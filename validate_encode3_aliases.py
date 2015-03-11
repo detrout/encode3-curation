@@ -173,17 +173,15 @@ class CheckDCCWoldAlias:
           - file_accession
         """
         for i, row in enumerate(file_href_to_wold_query):
-            file_accession = str(row['file_accession'])
-            href = str(row['href'])
-            aliases = str(row['aliases'])
+            attributes = { k: str(v) for k, v in row.items() }
+            href = attributes['href']
             if href not in cache:
                 clear_output()
                 print("loading: {} {}/{}".format(href, i, len(file_href_to_wold_query)))
                 header = fastq_read_id(href)
-                cache[href] = {'file_accession': file_accession,
-                               'href': href,
-                               'aliases': aliases,
-                               'header': header}
+                attributes['header'] = header
+                cache[href] = attributes
+                
         return cache
 
     
