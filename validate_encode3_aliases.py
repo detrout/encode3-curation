@@ -32,9 +32,10 @@ class CheckDCCWoldAlias:
         self.server = server
         self.DCCIndex = LookupSubmittedFile()
         self.read_patterns = [
-            ":(?P<fc>[A-Z0-9]*A[ACD]XX):(?P<lane>[\d]):",
-            "_(?P<fc>[A-Z0-9]*AAXX)_(?P<lane>[\d])(_(?P<end>[\d]))?",
-            "_(?P<fc>FC[\d]+)_(?P<lane>[\d])",
+            b":(?P<fc>[A-Z0-9]*A[ACD]XX):(?P<lane>[\d]):.* (?P<end>[12]):[YN]",
+            b":(?P<fc>[A-Z0-9]*A[ACD]XX):(?P<lane>[\d]):",
+            b"_(?P<fc>[A-Z0-9]*AAXX)_(?P<lane>[\d])(_(?P<end>[\d]))?",
+            b"_(?P<fc>FC[\d]+)_(?P<lane>[\d])",
                     ]
     def load_datasets(self, urls):
         """Load ENCODE3 datasets into our model.
@@ -72,7 +73,7 @@ class CheckDCCWoldAlias:
         for p in self.read_patterns:
             match = re.search(p, read_id)
             if match:
-                return match.group('fc'), match.group('lane')
+                return match.groupdict()
 
     def match_dcc_alias_and_our_files(self):
         """Check encode libraries that have aliases for matching woldlab library IDs.
@@ -132,9 +133,11 @@ class CheckDCCWoldAlias:
                 messages.append(self.DCCIndex.format_encode2_metadata(submitted))
                 continue
 
-            libraries = lookup_library_id_from_lims(read_id[0], read_id[1])
+            libraries = lookup_library_id_from_lims(read_id['fc'],
+                                                    read_id['lane'])
             if not libraries:
-                messages.append("Couldn't lookup: {}".format(','.join(read_id)))
+                messages.append("Couldn't lookup: {}".format(
+                    ','.join(read_id.items())))
                 valid_library = False
                 continue
 
