@@ -6,7 +6,8 @@ import json
 import jsonschema
 import logging
 import re
-from httplib import HTTPException
+
+LOGGER = logging.getLogger(__name__)
 
 import RDF
 import pandas as pd
@@ -19,9 +20,8 @@ from htsworkflow.submission.ucsc import get_encodedcc_file_index
 from htsworkflow.util.rdfjsonld import load_into_model
 from htsworkflow.util.rdfhelp import get_model
 
-from rdfmagic import load_source, make_temp_model, LibRdfResults
+from rdfmagic import load_source, make_temp_model, LibRdfResults, HTTPError
 
-LOGGER = logging.getLogger(__name__)
 
 class CheckDCCWoldAlias:
     def __init__(self, server):
