@@ -14,7 +14,10 @@ import pandas as pd
 from IPython.display import display_html, clear_output
 
 import requests
-from pysam import Samfile
+try:
+    from pysam import Samfile
+except ImportError as e:
+    LOGGER.error("Pysam not available, bam reading wont work")
 
 from htsworkflow.submission.ucsc import get_encodedcc_file_index
 from htsworkflow.util.rdfjsonld import load_into_model
