@@ -1,6 +1,6 @@
 import gzip
 import os
-from StringIO import StringIO
+from io import BytesIO
 import sys
 import json
 import jsonschema
@@ -284,7 +284,7 @@ def fastq_read_id(url):
     '''Read the first line (containing the read id) out of a remote fastq file'''
     data = requests.get(url, stream=True)
 
-    block = StringIO(data.iter_content(1024).next())
+    block = BytesIO(next(data.iter_content(1024)))
     compressed = gzip.GzipFile(None, 'r', fileobj=block)
     header = compressed.readline().rstrip()
     return header
