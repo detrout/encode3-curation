@@ -286,14 +286,31 @@ class LookupSubmittedFile:
         else:
             return "Couldn't lookup file name"
 
-def fastq_read_id(url):
-    '''Read the first line (containing the read id) out of a remote fastq file'''
+
+def fastq_read(url, reads=1):
+    '''Read a few fastq records
+    '''
+    # Reasonable power of 2 greater than 50 + 100 + 5 + 100
+    # which is roughly what a single fastq read is.
+    BLOCK_SIZE = 512 
     data = requests.get(url, stream=True)
 
-    block = BytesIO(next(data.iter_content(1024)))
+    block = BytesIO(next(data.iter_content(BLOCK_SIZE * reads)))
     compressed = gzip.GzipFile(None, 'r', fileobj=block)
-    header = compressed.readline().rstrip()
-    return header
+    for i in range(reads):
+        header = compressed.readline().rstrip()
+        sequence = compressed.readline().rstrip()
+        qual_header = compressed.readline().rstrip()
+        quality = compressed.readline().rstrip()
+        yield (header, sequence, qual_header, quality)
+
+    
+def fastq_read_id(url):
+    '''Read the first line (containing the read id) out of a remote fastq file'''
+    records = fastq_read(url)
+    block = records.next()
+    return block[0]
+
 
 def bam_read_id(url):
     '''Read first read id out of a remote bam file.
