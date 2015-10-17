@@ -22,6 +22,9 @@ from htsworkflow.submission.encoded import ENCODED
 from htsworkflow.util.rdfhelp import get_model, dump_model, load_into_model
 from htsworkflow.util.rdfjsonld import load_into_model as load_jsonld_into_model
 
+if not 'DJANGO_SETTINGS_MODULE' in os.environ:
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'htsworkflow.settings.myrada'
+
 ipython = get_ipython()
 
 ipython.magic('load_ext rdfmagic')
