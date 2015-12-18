@@ -107,7 +107,7 @@ def make_experiment_df(experiments):
                     rows.append(record)
     return pandas.DataFrame(rows, columns=record.keys())
 
-def caching_encoded_experiment_loader(url, cache_name):
+def caching_encoded_experiment_loader(query_url, cache_name):
     """Cache DCC objects found with query in a python shelf
 
     Parameters:
@@ -116,15 +116,23 @@ def caching_encoded_experiment_loader(url, cache_name):
 
     Note: to refresh objects delete cache_name.db
     """
-    server = ENCODED('www.encodeproject.org')
-    server.load_netrc()
-    
     shelf_name = cache_name
-    shelf_db_name = shelf_name + '.db'
+    #shelf_db_name = shelf_name + '.db'
 
     experiments = shelve.DbfilenameShelf(shelf_name)
-    query = server.get_json(url)
+    encoded_experiment_loader(query_url, experiments)
+    return experiments
+
+def encoded_experiment_loader(query_url, experiments=None):
+    server = ENCODED('www.encodeproject.org')
+    server.load_netrc()
+
+    if experiments is None:
+        experiments = {}
+
+    query = server.get_json(query_url)
     tzero = time.monotonic()
+    tnow = tzero
     tprev = tzero
     progress = len(query['@graph']) // 10
     for i, record in enumerate(query['@graph']):
@@ -132,17 +140,16 @@ def caching_encoded_experiment_loader(url, cache_name):
         if accession not in experiments:
             experiments[accession] = server.get_json(record['@id'])
             
-        if (i+1) % progress  == 0:
+        if progress != 0 and (i+1) % progress  == 0:
             tnow = time.monotonic()
             print("Reading {} of {} records in {} seconds".format(
                   (i+1),
                   len(query['@graph']), 
                   tnow - tprev))
             tprev = tnow
-    print("Read {} records in {} seconds".format(len(query['@graph']), tnow-tzero))
-    #experiments.close()
+    print("Read {} records in {} seconds".format(
+        len(query['@graph']), tnow-tzero))
 
-    #experiments = shelve.DbfilenameShelf(shelf_name)
     return experiments
 
 def main():
