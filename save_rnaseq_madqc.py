@@ -15,7 +15,7 @@ def url_end(url):
 
 def aliases_to_wold_id(aliases):
     """Convert Library Alias to Wold lab library id.
-    
+
     And only do this for barbara-wold: aliases since I don't
     know what other groups IDs mean.
     """
@@ -29,16 +29,16 @@ def aliases_to_wold_id(aliases):
 
 def starting_quantity(quantity, units):
     """Try to normalize starting quantity.
-    
+
     Ignore the difference between "cell-equivalent" and "cells"
     Squish our 11 cell group into its intended 10 cell set.
     """
     if quantity is None:
         return None
-    
+
     if units == 'cell-equivalent':
         units = 'cells'
-    
+
     quantity = float(quantity)
     assert int(quantity) == quantity
     quantity = int(quantity)
@@ -46,7 +46,7 @@ def starting_quantity(quantity, units):
     formatted = "{} {}".format(quantity, units)
     if formatted == '11 cells':
         formatted = '10 cells'
-        
+
     return formatted
 
 
@@ -61,7 +61,7 @@ def make_experiment_df(experiments):
             if len(f['quality_metrics']) > 0:
                 # sort qc metrics by date created
                 sorted_qc = sorted(
-                    [ qc for qc in f['quality_metrics'] ], 
+                    [ qc for qc in f['quality_metrics'] ],
                     key=lambda x: dateutil.parser.parse(x['date_created']))
                 # choose the most recent run.
                 most_recent_qc = sorted_qc[-1]
@@ -80,14 +80,14 @@ def make_experiment_df(experiments):
                 # we only want to look at the MAD scores right now.
                 # we're ignoring the STAR & RSEM scores and just
                 # investigating Rafa's MAD QC output.
-                # 
-                # Also the MAD qc scores are symetric between replicates so we 
-                # only need scores from one file. 
+                #
+                # Also the MAD qc scores are symetric between replicates so we
+                # only need scores from one file.
                 # (the reason for requiring bio_rep and tech_rep == 1)
                 if 'MadQualityMetric' in most_recent_qc['@type'] and bio_rep == 1 and tech_rep == 1:
                     record = collections.OrderedDict(
                         # long list of things to identify a particular experiment replicate
-                        (('experiment', accession), 
+                        (('experiment', accession),
                          ('lab', detail['lab']['title']),
                          ('rfa', detail['award']['rfa']),
                          ('description', detail['description']),
@@ -139,12 +139,12 @@ def encoded_experiment_loader(query_url, experiments=None):
         accession = record['@id'][len('/experiments/'):-1]
         if accession not in experiments:
             experiments[accession] = server.get_json(record['@id'])
-            
+
         if progress != 0 and (i+1) % progress  == 0:
             tnow = time.monotonic()
             print("Reading {} of {} records in {} seconds".format(
                   (i+1),
-                  len(query['@graph']), 
+                  len(query['@graph']),
                   tnow - tprev))
             tprev = tnow
     print("Read {} records in {} seconds".format(
@@ -152,8 +152,8 @@ def encoded_experiment_loader(query_url, experiments=None):
 
     return experiments
 
-def main():
 
+def main():
     query_url = 'search/?type=experiment&assay_term_name=RNA-seq'
     cache_name = 'rnaseq-experiments.shelf'
     experiments = caching_encoded_experiment_loader(query_url, cache_name)
