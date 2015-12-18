@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 import collections
-import datetime
 import dateutil
 import time
 import pandas
-import os
 import shelve
 
 from htsworkflow.submission.encoded import ENCODED
