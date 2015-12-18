@@ -66,6 +66,10 @@ def make_experiment_df(experiments):
                 # choose the most recent run.
                 most_recent_qc = sorted_qc[-1]
 
+                if 'replicate' not in f:
+                    print('Skipping:', f['@id'])
+                    continue
+
                 replicate = f['replicate']
                 library = replicate['library']
                 biosample = library['biosample']
