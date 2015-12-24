@@ -43,7 +43,6 @@ ipython.magic('%addns experiments https://www.encodeproject.org/experiments/')
 ipython.magic('%addns libraries https://www.encodeproject.org/libraries/')
 ipython.magic('%addns files https://www.encodeproject.org/files/')
 
-
 def build_geneid_to_gene_from_gtf(gencode):
     """Build a dictionary mapping from gene_id to gene_name.
 
