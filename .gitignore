@@ -4,4 +4,6 @@
 .ipynb_checkpoints/
 cache/
 rdf-timing
-comparison.h5
+*.h5
+*.csv
+*.tsv
