@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export PYTHONPATH=/home/diane/proj/htsworkflow:/home/diane/proj/long-rna-seq-condor
+ipython3 notebook
