@@ -1,4 +1,4 @@
 #!/bin/sh
 
-export PYTHONPATH=/home/diane/proj/htsworkflow:/home/diane/proj/long-rna-seq-condor
+export PYTHONPATH=/home/diane/proj/htsworkflow:/home/diane/proj/long-rna-seq-condor:/home/diane/proj/encode3-curation
 ipython3 notebook
