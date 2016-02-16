@@ -68,7 +68,7 @@ class RSEMCache(Mapping):
         for lib_id in replicates:
             lib = self._store['/genes/library_{}'.format(lib_id)]
             lib.index = lib['gene_id']
-            results[str(lib_id)] = lib['FPKM']
+            results[str(lib_id)] = lib[quantification]
 
         df =  pandas.DataFrame(results)
         if gene_ids:
