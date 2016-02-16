@@ -4,8 +4,11 @@ import dateutil
 import time
 import pandas
 import shelve
+import logging
 
 from htsworkflow.submission.encoded import ENCODED
+
+logger = logging.getLogger(__name__)
 
 def url_end(url):
     """Convert DCC object ID URL to just the object ID
@@ -50,8 +53,115 @@ def starting_quantity(quantity, units):
     return formatted
 
 
+def isrsem(file):
+    """Does this ENCODED file object refer to a RSEM file.
+    """
+    analysis = file.get('analysis_step_version')
+    if analysis:
+        software_versions = analysis.get('software_versions')
+        if software_versions:
+            for version in software_versions:
+                software = version['software']
+                if software['name'] == 'rsem':
+                    return True
+
+    return False
+
+
+def get_replicate_tuple(replicate):
+    """Return a tuple of the biological and technical replicate numbers
+    """
+    bio = replicate['biological_replicate_number']
+    tech = replicate['technical_replicate_number']
+    return (bio, tech)
+
+
+RSEMInfo = collections.namedtuple(
+    'FileInfo',
+    ['date_created', 'file_id', 'library_id', 'experiment_id', 'spikes_used', 'href']
+)
+
+def find_rsem(files):
+    """Find most recent RSEM urls for given a list of file objects.
+    """
+    best_reps = {}
+    for file in files:
+        if file['file_format'] == 'tsv' and file['output_type'] == 'gene quantifications':
+            if not isrsem(file):
+                continue
+            replicate = file['replicate']
+            rep_id = get_replicate_tuple(replicate)
+            library = replicate['library']
+            library_id = library['accession']
+            experiment = replicate['experiment']
+            experiment_id = experiment['accession']
+            spikes = library['spikeins_used']
+
+            spikes_used = [ url_end(x) for x in spikes ]
+
+            file_info = RSEMInfo(
+                file['date_created'], file['@id'], library_id, experiment_id, spikes_used, file['href']
+            )
+            best_reps.setdefault(rep_id, []).append(file_info)
+
+    for rep_id in best_reps:
+        reps = best_reps[rep_id]
+        reps = sorted(reps)
+        yield reps[-1]
+
+def load_rsems(cache, experiment_keys, quantification='fpkm', limit=None):
+    """Return r
+    """
+    score_col = rsem_quantification_to_column(quantification)
+
+    keys = list(keys)
+    total = len(keys)
+    chunk = max(total // 10, 1)
+    tzero = time.monotonic()
+    tprev = tzero
+
+    for i, experiment_id in enumerate(exerpiment_keys):
+        experiment = cache[experiment_id]
+        score = []
+        for file in save_rnaseq_madqc.find_rsem(experiment['files']):
+            url = 'https://www.encodeproject.org' + file.href
+            score = pandas.read_csv(
+                url, usecols=[0,score_col], sep='\t', index_col=0)
+            score.columns = [file.library_id]
+            scores.append(scores)
+
+        if scores:
+            yield (experiment_id, pandas.concat(scores, axis=1))
+
+        if (i + 1) % chunk == 0:
+            tnow = time.monotonic()
+            logger.info("{} of {} in {:.2f} sec".format(
+                i, total, tnow-tprev))
+            tprev = tnow
+
+        if limit and i > limit:
+            return
+
+def rsem_quantification_to_column(name):
+    """Convert quantification name to RSEM column number
+    """
+    scores = {
+        'length': 2,
+        'effective_length': 3,
+        'expected_count': 4,
+        'TPM': 5,
+        'FPKM': 6,
+    }
+
+    score_column = scores.get(column)
+    if score_column is None:
+        raise ValueError("Unrecognized column name")
+
+    return score_column
+
+
 def make_experiment_df(experiments):
-    """Create a dataframe from a blob of DCC experiment json.
+    """Create experiment containing some descriptive and qc status.
     """
     rows = []
     for accession, detail in experiments.items():
