@@ -119,12 +119,12 @@ def convert_gff(inname, outname):
 
 def main(cmdline=None):
     parser = argparse.ArgumentParser()
-    parser.add_arguments('-v', '--verbose', action='store_true', default=False)
-    parser.add_arguments('-d', '--debug', action='store_true', default=False)
-    parser.add_arguments('-o', '--output',
-                         help='specify output name, defaults to name.h5')
-    parser.add_arugments('filename', nargs=1,
-                         help='specify input GFF/GTF filename')
+    parser.add_argument('-v', '--verbose', action='store_true', default=False)
+    parser.add_argument('-d', '--debug', action='store_true', default=False)
+    parser.add_argument('-o', '--output',
+                        help='specify output name, defaults to name.h5')
+    parser.add_argument('filename', nargs=1,
+                        help='specify input GFF/GTF filename')
 
     args = parser.parse_args(cmdline)
 
