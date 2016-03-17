@@ -139,7 +139,7 @@ def main(cmdline=None):
         name, ext = os.path.splitext(args.filename)
         args.output = name + '.h5'
         
-    convert_gff(args.filename, args.outname)
+    convert_gff(args.filename, args.output)
 
 
 if __name__ == '__main__':
