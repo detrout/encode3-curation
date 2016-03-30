@@ -208,6 +208,7 @@ def make_experiment_df(experiments):
                          ('starting', starting_quantity(library.get('nucleic_acid_starting_quantity'),
                                                         library.get('nucleic_acid_starting_quantity_units'))),
                          ('library_id', alias),
+                         ('spikeins_used', ','.join([url_end(x) for x in library['spikeins_used']])),
                          # the qc metrics
                          ('Pearson', most_recent_qc['Pearson correlation']),
                          ('Spearman', most_recent_qc['Spearman correlation']),
