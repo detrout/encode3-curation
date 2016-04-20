@@ -53,10 +53,10 @@ def starting_quantity(quantity, units):
     return formatted
 
 
-def isrsem(file):
+def isrsem(experiment_file):
     """Does this ENCODED file object refer to a RSEM file.
     """
-    analysis = file.get('analysis_step_version')
+    analysis = experiment_file.get('analysis_step_version')
     if analysis:
         software_versions = analysis.get('software_versions')
         if software_versions:
