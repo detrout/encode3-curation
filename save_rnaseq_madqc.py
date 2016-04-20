@@ -78,32 +78,43 @@ def get_replicate_tuple(replicate):
 
 RSEMInfo = collections.namedtuple(
     'FileInfo',
-    ['date_created', 'file_id', 'library_id', 'experiment_id', 'spikes_used', 'href']
+    ['date_created', 'file_id', 'library_id', 'experiment_id', 'assembly', 'genome_annotation', 'spikes_used', 'href']
 )
 
-def find_rsem(files):
+def find_all_rsem(experiment_files):
     """Find most recent RSEM urls for given a list of file objects.
     """
     best_reps = {}
-    for file in files:
-        if file['file_format'] == 'tsv' and file['output_type'] == 'gene quantifications':
-            if not isrsem(file):
+    for experiment_file in experiment_files:
+        if experiment_file['file_format'] == 'tsv' and experiment_file['output_type'] == 'gene quantifications':
+            if not isrsem(experiment_file):
                 continue
-            replicate = file['replicate']
+            replicate = experiment_file['replicate']
             rep_id = get_replicate_tuple(replicate)
             library = replicate['library']
             library_id = library['accession']
             experiment = replicate['experiment']
             experiment_id = experiment['accession']
+            assembly = experiment_file['assembly']
+            genome_annotation = experiment_file['genome_annotation']
             spikes = library['spikeins_used']
 
             spikes_used = [ url_end(x) for x in spikes ]
 
             file_info = RSEMInfo(
-                file['date_created'], file['@id'], library_id, experiment_id, spikes_used, file['href']
+                experiment_file['date_created'],
+                experiment_file['@id'],
+                library_id,
+                experiment_id,
+                assembly,
+                genome_annotation,
+                spikes_used,
+                experiment_file['href']
             )
+            yield(file_info)
+            continue
             best_reps.setdefault(rep_id, []).append(file_info)
-
+    return
     for rep_id in best_reps:
         reps = best_reps[rep_id]
         reps = sorted(reps)
@@ -114,20 +125,20 @@ def load_rsems(cache, experiment_keys, quantification='fpkm', limit=None):
     """
     score_col = rsem_quantification_to_column(quantification)
 
-    keys = list(keys)
-    total = len(keys)
+    experiment_keys = list(experiment_keys)
+    total = len(experiment_keys)
     chunk = max(total // 10, 1)
     tzero = time.monotonic()
     tprev = tzero
 
-    for i, experiment_id in enumerate(exerpiment_keys):
+    for i, experiment_id in enumerate(experiment_keys):
         experiment = cache[experiment_id]
-        score = []
-        for file in save_rnaseq_madqc.find_rsem(experiment['files']):
-            url = 'https://www.encodeproject.org' + file.href
+        scores = []
+        for experiment_file in find_all_rsem(experiment['files']):
+            url = 'https://www.encodeproject.org' + experiment_file.href
             score = pandas.read_csv(
                 url, usecols=[0,score_col], sep='\t', index_col=0)
-            score.columns = [file.library_id]
+            score.columns = [experiment_file.library_id]
             scores.append(scores)
 
         if scores:
@@ -152,6 +163,7 @@ def rsem_quantification_to_column(name):
         'TPM': 5,
         'FPKM': 6,
     }
+    column = scores[name]
 
     score_column = scores.get(column)
     if score_column is None:
