@@ -120,7 +120,7 @@ def find_all_rsem(experiment_files):
         reps = sorted(reps)
         yield reps[-1]
 
-def load_rsems(cache, experiment_keys, quantification='fpkm', limit=None):
+def load_rsems(cache, experiment_keys, quantification='FPKM', limit=None):
     """Return r
     """
     score_col = rsem_quantification_to_column(quantification)
