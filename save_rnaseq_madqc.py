@@ -139,7 +139,7 @@ def load_rsems(cache, experiment_keys, quantification='FPKM', limit=None):
             score = pandas.read_csv(
                 url, usecols=[0,score_col], sep='\t', index_col=0)
             score.columns = [experiment_file.library_id]
-            scores.append(scores)
+            scores.append(score)
 
         if scores:
             yield (experiment_id, pandas.concat(scores, axis=1))
@@ -163,9 +163,7 @@ def rsem_quantification_to_column(name):
         'TPM': 5,
         'FPKM': 6,
     }
-    column = scores[name]
-
-    score_column = scores.get(column)
+    score_column = scores.get(name)
     if score_column is None:
         raise ValueError("Unrecognized column name")
 
