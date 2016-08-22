@@ -16,21 +16,74 @@ import time
 logger = logging.getLogger('gff2table')
 
 class AttributesParser:
-    def __init__(self):
+    def __init__(self, sep=' '):
         self.index = 0
+        self.sep = sep
         self.terms = collections.OrderedDict()
         self.max_string = collections.OrderedDict()
+
+    def tokenize(self, cell):
+        """Generator returning tokens for gff/gtf attributes
+        """
+        SEP = 0
+        STRING = 1
+        QUOTED_STRING = 2
         
+        state = SEP
+        current = []
+        for character in cell:
+            if state == SEP:
+                if character.isspace():
+                    continue
+                elif character == self.sep:
+                    state = SEP
+                    yield character
+                elif character == '"':
+                    current.append(character)
+                    state = QUOTED_STRING
+                elif character == ';':
+                    state = SEP
+                    yield character
+                else:
+                    current.append(character)
+                    state = STRING
+            elif state == STRING:
+                if character in (self.sep, ';'):
+                    state = SEP
+                    yield ''.join(current)
+                    current = []
+                    yield character
+                elif character.isspace():
+                    state = SEP
+                    yield ''.join(current)
+                    current = []
+                else:
+                    current.append(character)
+            elif state == QUOTED_STRING:
+                if character == '"':
+                    state = SEP
+                    current.append('"')
+                    yield ''.join(current)
+                    current = []
+                else:
+                    current.append(character)
+
+        if len(current) > 0:
+            if state == QUOTED_STRING:
+                raise ValueError('Unclosed quote')
+            else:
+                yield ''.join(current)
+
     def __call__(self, cell):
-        records = [ x for x in cell.split(';') if len(x) > 0 ]
-        for term in records:
-            term = term.strip()
-            space = term.find(" ")
-            name = term[:space]
-            if name == 'ont':
-                continue
+        tokens = self.tokenize(cell)
+        attributes_count = 0
+        for term in tokens:
+            name = term
+
+            sep = next(tokens)
             
-            value = term[space+1:]
+            value = next(tokens)
+
             if value == '"NULL"':
                 value = None
             elif value[0] == '"':
@@ -39,14 +92,17 @@ class AttributesParser:
                 self.max_string[name] = max(prev, len(value))
             else:
                 value = int(value)
-            column = self.terms.setdefault(name, {})
-            if name == 'ont':
-                column.setdefault(self.index, []).append(value)
-            else:
-                column[self.index] = value
-        self.index += 1
 
-        return len(records)
+            column = self.terms.setdefault(name, {})
+            column[self.index] = value
+            attributes_count += 1
+            try:
+                end_field = next(tokens)
+            except StopIteration:
+                break
+
+        self.index += 1
+        return attributes_count
     
 def parse_score(x):
     if x == '.':
@@ -68,21 +124,26 @@ def parse_phase(x):
     else:
         return int(x)
 
-def convert_gff(inname, outname):
+def convert_gff(inname, outname, table_name, sep):
     logger.info("Converting %s to %s", inname, outname)
-    attribute_parser = AttributesParser()
+    attribute_parser = AttributesParser(sep=sep)
     tzero = time.monotonic()
+    required_gtf_names=[
+        'chromosome', 'source', 'type', 'start', 'stop',
+        'score', 'strand', 'frame',]
+    column_names = required_gtf_names + ['attributes']
+
     gtf = pandas.read_csv(
         inname, 
         sep='\t', 
         header=None,
+        names=column_names,
         index_col=False,
-        names=['chromosome', 'source', 'type', 'start', 'stop',
-               'score', 'strand', 'frame',
-               'attributes'],
         na_values='.',
         converters={
+            'score': parse_score,
             'strand': parse_strand,
+            'frame': parse_phase,
             'attributes': attribute_parser,
         },
     )
@@ -94,20 +155,16 @@ def convert_gff(inname, outname):
 
     # drop my synthetic column counting how many records are in the
     # variant column
-    gtf.drop('attributes', inplace=True)
-    columns = set(gtf.columns)
-    gtf.dropna(axis=1, how='all', inplace=True)
-    logger.info("Removed columns for no data: {}",
-                ",".join(columns.difference(set(gtf.columns))))
+    gtf.drop('attributes', axis=1, inplace=True)
+    # create new table with metadata attributes
     attributes = pandas.DataFrame(attribute_parser.terms)
-    gff = gtf.merge(attributes, left_index=True, right_index=True)
+    gtf_with_metadata = gtf.merge(attributes, left_index=True, right_index=True)
     tnow = time.monotonic()
     logger.info("Merged table in {:.3} seconds".format(tnow-tprev))
     tprev = tnow
     
     store = pandas.HDFStore(outname, mode='w', complevel=9, complib='bzip2')
-    name = 'v19_tRNAs_ERCC'
-    store.append(name, gff,
+    store.append(table_name, gtf_with_metadata,
                  min_itemsize = attribute_parser.max_string)
     tnow = time.monotonic()
     logger.info("Wrote table in {:.3} seconds".format(tnow-tprev))
@@ -121,10 +178,13 @@ def main(cmdline=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('-v', '--verbose', action='store_true', default=False)
     parser.add_argument('-d', '--debug', action='store_true', default=False)
+    parser.add_argument('-n', '--name', default='gtf', help='table name in hdf5 file')
     parser.add_argument('-o', '--output',
                         help='specify output name, defaults to name.h5')
     parser.add_argument('filename', nargs=1,
                         help='specify input GFF/GTF filename')
+    parser.add_argument('--name-value-sep', default=" ",
+                        help='name value seperator in attribute column')
 
     args = parser.parse_args(cmdline)
 
@@ -134,13 +194,12 @@ def main(cmdline=None):
         logging.basicConfig(level=logging.INFO)
     else:
         logging.basicConfig(level=logging.WARN)
-        
+
     if args.output is None:
-        name, ext = os.path.splitext(args.filename)
+        name, ext = os.path.splitext(args.filename[0])
         args.output = name + '.h5'
         
-    convert_gff(args.filename, args.output)
-
+    convert_gff(args.filename[0], args.output, table_name=args.name, sep=args.name_value_sep)
 
 if __name__ == '__main__':
     main()
