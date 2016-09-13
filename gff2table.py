@@ -181,7 +181,7 @@ def main(cmdline=None):
     parser.add_argument('-n', '--name', default='gtf', help='table name in hdf5 file')
     parser.add_argument('-o', '--output',
                         help='specify output name, defaults to name.h5')
-    parser.add_argument('filename', nargs=1,
+    parser.add_argument('filename', nargs='+',
                         help='specify input GFF/GTF filename')
     parser.add_argument('--name-value-sep', default=" ",
                         help='name value seperator in attribute column')
@@ -198,8 +198,9 @@ def main(cmdline=None):
     if args.output is None:
         name, ext = os.path.splitext(args.filename[0])
         args.output = name + '.h5'
-        
-    convert_gff(args.filename[0], args.output, table_name=args.name, sep=args.name_value_sep)
+
+    for filename in args.filename:
+        convert_gff(filename, args.output)
 
 if __name__ == '__main__':
     main()

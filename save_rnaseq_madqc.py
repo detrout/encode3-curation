@@ -53,10 +53,10 @@ def starting_quantity(quantity, units):
     return formatted
 
 
-def isrsem(file):
+def isrsem(experiment_file):
     """Does this ENCODED file object refer to a RSEM file.
     """
-    analysis = file.get('analysis_step_version')
+    analysis = experiment_file.get('analysis_step_version')
     if analysis:
         software_versions = analysis.get('software_versions')
         if software_versions:
@@ -78,57 +78,68 @@ def get_replicate_tuple(replicate):
 
 RSEMInfo = collections.namedtuple(
     'FileInfo',
-    ['date_created', 'file_id', 'library_id', 'experiment_id', 'spikes_used', 'href']
+    ['date_created', 'file_id', 'library_id', 'experiment_id', 'assembly', 'genome_annotation', 'spikes_used', 'href']
 )
 
-def find_rsem(files):
+def find_all_rsem(experiment_files):
     """Find most recent RSEM urls for given a list of file objects.
     """
     best_reps = {}
-    for file in files:
-        if file['file_format'] == 'tsv' and file['output_type'] == 'gene quantifications':
-            if not isrsem(file):
+    for experiment_file in experiment_files:
+        if experiment_file['file_format'] == 'tsv' and experiment_file['output_type'] == 'gene quantifications':
+            if not isrsem(experiment_file):
                 continue
-            replicate = file['replicate']
+            replicate = experiment_file['replicate']
             rep_id = get_replicate_tuple(replicate)
             library = replicate['library']
             library_id = library['accession']
             experiment = replicate['experiment']
             experiment_id = experiment['accession']
+            assembly = experiment_file['assembly']
+            genome_annotation = experiment_file['genome_annotation']
             spikes = library['spikeins_used']
 
             spikes_used = [ url_end(x) for x in spikes ]
 
             file_info = RSEMInfo(
-                file['date_created'], file['@id'], library_id, experiment_id, spikes_used, file['href']
+                experiment_file['date_created'],
+                experiment_file['@id'],
+                library_id,
+                experiment_id,
+                assembly,
+                genome_annotation,
+                spikes_used,
+                experiment_file['href']
             )
+            yield(file_info)
+            continue
             best_reps.setdefault(rep_id, []).append(file_info)
-
+    return
     for rep_id in best_reps:
         reps = best_reps[rep_id]
         reps = sorted(reps)
         yield reps[-1]
 
-def load_rsems(cache, experiment_keys, quantification='fpkm', limit=None):
+def load_rsems(cache, experiment_keys, quantification='FPKM', limit=None):
     """Return r
     """
     score_col = rsem_quantification_to_column(quantification)
 
-    keys = list(keys)
-    total = len(keys)
+    experiment_keys = list(experiment_keys)
+    total = len(experiment_keys)
     chunk = max(total // 10, 1)
     tzero = time.monotonic()
     tprev = tzero
 
-    for i, experiment_id in enumerate(exerpiment_keys):
+    for i, experiment_id in enumerate(experiment_keys):
         experiment = cache[experiment_id]
-        score = []
-        for file in save_rnaseq_madqc.find_rsem(experiment['files']):
-            url = 'https://www.encodeproject.org' + file.href
+        scores = []
+        for experiment_file in find_all_rsem(experiment['files']):
+            url = 'https://www.encodeproject.org' + experiment_file.href
             score = pandas.read_csv(
                 url, usecols=[0,score_col], sep='\t', index_col=0)
-            score.columns = [file.library_id]
-            scores.append(scores)
+            score.columns = [experiment_file.library_id]
+            scores.append(score)
 
         if scores:
             yield (experiment_id, pandas.concat(scores, axis=1))
@@ -152,8 +163,7 @@ def rsem_quantification_to_column(name):
         'TPM': 5,
         'FPKM': 6,
     }
-
-    score_column = scores.get(column)
+    score_column = scores.get(name)
     if score_column is None:
         raise ValueError("Unrecognized column name")
 
@@ -208,6 +218,7 @@ def make_experiment_df(experiments):
                          ('starting', starting_quantity(library.get('nucleic_acid_starting_quantity'),
                                                         library.get('nucleic_acid_starting_quantity_units'))),
                          ('library_id', alias),
+                         ('spikeins_used', ','.join([url_end(x) for x in library['spikeins_used']])),
                          # the qc metrics
                          ('Pearson', most_recent_qc['Pearson correlation']),
                          ('Spearman', most_recent_qc['Spearman correlation']),
