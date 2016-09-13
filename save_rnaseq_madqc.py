@@ -280,6 +280,7 @@ def main():
     experiments = caching_encoded_experiment_loader(query_url, cache_name)
     df = make_experiment_df(experiments)
     df.to_csv('experiment-mad-qc.csv', index=False)
+    df.to_csv('experiment-mad-qc.tsv', sep='\t', index=False)
 
 if __name__ == '__main__':
     main()
