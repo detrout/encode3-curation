@@ -7,3 +7,4 @@ rdf-timing
 *.h5
 *.csv
 *.tsv
+*.gff
