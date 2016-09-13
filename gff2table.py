@@ -94,7 +94,7 @@ def convert_gff(inname, outname):
 
     # drop my synthetic column counting how many records are in the
     # variant column
-    gtf.drop('attributes', inplace=True)
+    gtf.drop('attributes', inplace=True, axis=1)
     columns = set(gtf.columns)
     gtf.dropna(axis=1, how='all', inplace=True)
     logger.info("Removed columns for no data: {}",
@@ -123,7 +123,7 @@ def main(cmdline=None):
     parser.add_argument('-d', '--debug', action='store_true', default=False)
     parser.add_argument('-o', '--output',
                         help='specify output name, defaults to name.h5')
-    parser.add_argument('filename', nargs=1,
+    parser.add_argument('filename', nargs='+',
                         help='specify input GFF/GTF filename')
 
     args = parser.parse_args(cmdline)
@@ -138,8 +138,9 @@ def main(cmdline=None):
     if args.output is None:
         name, ext = os.path.splitext(args.filename)
         args.output = name + '.h5'
-        
-    convert_gff(args.filename, args.output)
+
+    for filename in args.filename:
+        convert_gff(filename, args.output)
 
 
 if __name__ == '__main__':
