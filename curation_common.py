@@ -19,8 +19,7 @@ def custom_paths():
 custom_paths()
 
 from htsworkflow.submission.encoded import ENCODED
-from htsworkflow.util.rdfhelp import get_model, dump_model, load_into_model
-from htsworkflow.util.rdfjsonld import load_into_model as load_jsonld_into_model
+from htsworkflow.util.rdfhelp import dump_model, load_into_model
 
 if not 'DJANGO_SETTINGS_MODULE' in os.environ:
     os.environ['DJANGO_SETTINGS_MODULE'] = 'htsworkflow.settings.myrada'
@@ -85,3 +84,8 @@ def build_geneid_to_gene_from_gtf(gencode):
 
     logger.info("loaded in %d seconds", time.time() - start)
     return names
+
+
+def get_model(*args, **kwargs):
+    raise DeprecationWarning("rdflib models are easy to create, use Graph or ConjunctiveGraph")
+
